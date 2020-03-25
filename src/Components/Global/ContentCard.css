@@ -1,0 +1,13 @@
+.ContentCard {
+    padding: 40px 20px;
+    border: 0.2px solid rgba(170, 170, 170, 0.5);
+    width: 450px;
+}
+
+.ContentCard > h3 {
+    margin-bottom: 25px;
+}
+
+.ContentCard > p {
+    line-height: 1.4em;
+}

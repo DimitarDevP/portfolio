@@ -1,0 +1,27 @@
+.Nav {
+    display: flex;
+    width: 250px;
+    padding: 0px 100px;
+    padding-top: 150px;
+    position: fixed;
+    height: calc(100vh - 150px);
+    background-color: #31254F;
+    flex-direction: column;
+}
+
+.Nav > a {
+    padding: 20px 20px 20px 0px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: #DDD;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    transition: .2s !important;
+}
+
+.Nav > a:hover {
+    color: #FFF;
+    padding-right: 40px;
+}
