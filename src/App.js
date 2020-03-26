@@ -20,10 +20,10 @@ function App() {
 			<BrowserRouter>
 				<Nav />
 				<Route exact path="/portfolio/" component={About} />
-				<Route path="portfolio/skills" component={Skills} />
-				<Route path="portfolio/projects" component={Projects} />
-				<Route path="portfolio/experience" component={Experience} />
-				<Route path="portfolio/education" component={Education} />
+				<Route exact path="/portfolio/skills" component={Skills} />
+				<Route exact path="/portfolio/projects" component={Projects} />
+				<Route exact path="/portfolio/experience" component={Experience} />
+				<Route exact path="/portfolio/education" component={Education} />
 			</BrowserRouter>
 		</div>
 	)

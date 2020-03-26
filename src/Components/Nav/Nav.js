@@ -7,10 +7,10 @@ export default function Nav() {
     return (
         <div className="Nav">
             <NavLink to="/portfolio/">ABOUT ME</NavLink>
-            <NavLink to="/skills">SKILL SET</NavLink>
-            <NavLink to="/projects">PROJECTS</NavLink>
-            <NavLink to="/experience">EXPERIENCE</NavLink>
-            <NavLink to="/education">EDUCATION</NavLink>
+            <NavLink to="/portfolio/skills">SKILL SET</NavLink>
+            <NavLink to="/portfolio/projects">PROJECTS</NavLink>
+            <NavLink to="/portfolio/experience">EXPERIENCE</NavLink>
+            <NavLink to="/portfolio/education">EDUCATION</NavLink>
         </div>
     )
 }
