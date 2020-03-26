@@ -19,11 +19,11 @@ function App() {
 		<div className="App">
 			<BrowserRouter>
 				<Nav />
-				<Route exact path="/" component={About} />
-				<Route path="/skills" component={Skills} />
-				<Route path="/projects" component={Projects} />
-				<Route path="/experience" component={Experience} />
-				<Route path="/education" component={Education} />
+				<Route exact path="/portfolio/" component={About} />
+				<Route path="portfolio/skills" component={Skills} />
+				<Route path="portfolio/projects" component={Projects} />
+				<Route path="portfolio/experience" component={Experience} />
+				<Route path="portfolio/education" component={Education} />
 			</BrowserRouter>
 		</div>
 	)

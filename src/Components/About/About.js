@@ -5,7 +5,7 @@ import "./About.css"
 export default function About() {
     return (
         <div className="About Container">
-            <img src="/Profile.jpg" />
+            <img src="https://raw.githubusercontent.com/DimitarVel/portfolio/gh-pages/Profile.jpg" />
             <h3>Personal Information: </h3>
             <p>
                 My name is Dimitar Veljanovski and I am a self thought software engineer. I first started coding when I was 12 years old 
